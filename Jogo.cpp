@@ -10,7 +10,7 @@ Jogo::~Jogo()
 
 }
 
-Jogo::inicializar()
+void Jogo::inicializar()
 {
 
 }

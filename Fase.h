@@ -1,5 +1,4 @@
 #pragma once
-#include <stdafx.h>
 #include "Ente.h"
 #include "ListaEntidades.h"
 

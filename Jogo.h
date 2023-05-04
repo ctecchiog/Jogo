@@ -20,5 +20,5 @@ private:
 public:
     Jogo();
     ~Jogo();
-    inicializar();
+    void inicializar();
 };
