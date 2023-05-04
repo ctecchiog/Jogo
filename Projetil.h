@@ -12,4 +12,4 @@ public:
     Projetil(int xx, int yy);
     ~Projetil();
     void executar();
-}
+};
