@@ -6,5 +6,7 @@ class Obstaculo : public Entidade {
 public:
     Obstaculo();
     ~Obstaculo();
-    virtual void executar();
+    void executar();
+    int getX();
+    int getY();
 };

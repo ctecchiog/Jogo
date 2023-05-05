@@ -7,7 +7,7 @@ Jogador::Jogador()
 
 Jogador::~Jogador()
 {
-    
+
 }
 
 int Jogador::getID()

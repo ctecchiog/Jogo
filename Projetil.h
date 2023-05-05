@@ -3,7 +3,6 @@
 #include "Entidade.h"
 
 class Projetil : public Entidade {
-
 private:
     int id;
     int x;
@@ -12,4 +11,6 @@ public:
     Projetil();
     ~Projetil();
     void executar();
+    int getX();
+    int getY();
 };

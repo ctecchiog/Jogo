@@ -8,5 +8,7 @@ protected:
 public:
     Personagem();
     ~Personagem();
-    virtual void executar();
+    void executar();
+    int getX();
+    int getY();
 };

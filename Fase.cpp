@@ -8,7 +8,7 @@ Fase::~Fase()
 {
 }
 
-virtual void Fase::executar()
+void Fase::executar()
 {
 }
 
