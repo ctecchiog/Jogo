@@ -4,11 +4,12 @@
 
 class Obstaculo : public Entidade {
 private:
-    int id;
     int x;
     int y;
 public:
     Obstaculo();
     ~Obstaculo();
-    virtual void executar();
+    void executar();
+    int getX();
+    int getY();
 };

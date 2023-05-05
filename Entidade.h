@@ -6,7 +6,6 @@ class Entidade : public Ente {
 protected:
     int x;
     int y;
-
 public:
     Entidade();
     ~Entidade();

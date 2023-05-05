@@ -8,6 +8,3 @@ Obst_TipoA::~Obst_TipoA()
 {
 }
 
-void Obst_TipoA::executar()
-{
-}
