@@ -8,6 +8,6 @@ Obstaculo::~Obstaculo()
 {
 }
 
-virtual void Obstaculo::executar()
+void Obstaculo::executar()
 {
 }
