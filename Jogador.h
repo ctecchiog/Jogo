@@ -10,5 +10,7 @@ public:
     Jogador();
     ~Jogador();
     int getID();
+    int getX();
+    int getY();
     int getVidas();
 };

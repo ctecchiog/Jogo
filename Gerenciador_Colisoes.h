@@ -6,7 +6,9 @@
 
 class Gerenciador_Colisoes{
 private:
-
+    vector <Inimigo*> LIs;
+    list <Obstaculo*> LOs;
 public:
-
+    Gerenciador_Colisoes();
+    ~Gerenciador_Colisoes();
 };

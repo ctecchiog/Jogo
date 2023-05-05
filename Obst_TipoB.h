@@ -8,4 +8,6 @@ private:
 public:
     Obst_TipoB();
     ~Obst_TipoB();
+    int getX();
+    int getY();
 };

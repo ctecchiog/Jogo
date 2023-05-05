@@ -14,3 +14,13 @@ bool Inim_TipoA::lancaProjetil(Projetil *pP)
 {
 
 }
+
+int Inim_TipoA::getX()
+{
+    return x;
+}
+
+int Inim_TipoA::getY()
+{
+    return y;
+}

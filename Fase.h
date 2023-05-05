@@ -5,8 +5,7 @@
 #include "ListaEntidades.h"
 
 class Fase : public Ente {
-protected:
-    int id;
+private:
     Obst_TipoA obst;
     ListaEntidades listaEnt;
 public:

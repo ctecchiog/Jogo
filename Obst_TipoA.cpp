@@ -8,3 +8,12 @@ Obst_TipoA::~Obst_TipoA()
 {
 }
 
+int Obst_TipoA::getX()
+{
+    return x;
+}
+
+int Obst_TipoA::getY()
+{
+    return y;
+}
