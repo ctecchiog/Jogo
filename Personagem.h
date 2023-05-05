@@ -3,10 +3,6 @@
 #include "Entidade.h"
 
 class Personagem : public Entidade {
-private:
-    int id;
-    int x;
-    int y;
 protected:
     int num_vidas;
 public:

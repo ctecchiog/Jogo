@@ -5,5 +5,6 @@ class Menu{
 private:
 
 public:
-
+    Menu();
+    ~Menu();
 };
