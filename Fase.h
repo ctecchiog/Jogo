@@ -1,6 +1,6 @@
 #pragma once
-#include <stdafx.h>
 #include "Ente.h"
+#include "ListaEntidades.h"
 
 class Fase : public Ente {
 protected:
@@ -11,4 +11,4 @@ public:
     ~Fase();
     virtual void executar();
     void gerenciar_colisoes();
-}
+};

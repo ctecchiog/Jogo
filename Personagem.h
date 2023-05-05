@@ -12,6 +12,5 @@ protected:
 public:
     Personagem();
     ~Personagem();
-    int getNumVidas();
     virtual void executar();
-}
+};

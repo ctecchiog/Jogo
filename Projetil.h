@@ -9,7 +9,7 @@ private:
     int x;
     int y;
 public:
-    Projetil(int xx, int yy);
+    Projetil(int xx=0, int yy=0);
     ~Projetil();
     void executar();
-}
+};

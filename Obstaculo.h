@@ -11,5 +11,4 @@ public:
     Obstaculo();
     ~Obstaculo();
     virtual void executar();
-}
-
+};

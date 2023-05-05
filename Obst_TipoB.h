@@ -11,4 +11,4 @@ public:
     Obst_TipoB();
     ~Obst_TipoB();
     void executar();
-}
+};

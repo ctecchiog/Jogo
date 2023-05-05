@@ -8,10 +8,10 @@ Ente::~Ente()
 {
 }
 
-virtual void Ente::executar()
+void Ente::executar()
 {
 }
 
-void Ente::imprimir - se()
+void Ente::imprimirSe()
 {
 }
