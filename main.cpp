@@ -3,9 +3,10 @@
 
 int main() {
 
-	Jogo jogo;
+	Jogo jogar;
 
-	jogo.inicializar();
-
+	jogar.Jogo();
+	
 	return 0;
+
 }

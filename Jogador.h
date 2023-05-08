@@ -13,4 +13,5 @@ public:
     int getX();
     int getY();
     int getVidas();
+    void mover();
 };
