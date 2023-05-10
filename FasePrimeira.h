@@ -5,8 +5,9 @@
 class FasePrimeira: public Fase{
 private:
     int id;
-    Inim_TipoA inim;
+    Inim_TipoA inimA;
 public:
     FasePrimeira();
     ~FasePrimeira();
+    void executar();
 };

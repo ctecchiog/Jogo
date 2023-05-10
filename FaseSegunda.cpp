@@ -9,3 +9,8 @@ FaseSegunda::~FaseSegunda()
 {
     
 }
+
+void FaseSegunda::executar()
+{
+
+}

@@ -5,7 +5,10 @@
 class Jogador: public Personagem{
 private:
     int id;
+    int x;
+    int y;
     int num_vidas;
+    int pontuacao;
 public:
     Jogador();
     ~Jogador();
@@ -13,5 +16,6 @@ public:
     int getX();
     int getY();
     int getVidas();
+    int getPont();
     void mover();
 };

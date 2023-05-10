@@ -8,7 +8,12 @@ private:
     int id;
     int x;
     int y;
+    int num_vidas;
 public:
     Inim_TipoB();
     ~Inim_TipoB();
+    int getID();
+    int getX();
+    int getY();
+    int getVidas();
 };

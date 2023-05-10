@@ -7,15 +7,14 @@
 
 class Fase : public Ente {
 private:
-    Jogador player;
     Obst_TipoA obst;
     ListaEntidades listaEnt;
+    Gerenciador_Colisoes gerColisoes;
 
 public:
-    Fase(Jogador *player);
+    Fase();
     ~Fase();
     ListaEntidades* getListaEnt();
     virtual void executar();
     void gerenciar_colisoes();
-    void inicializaElementos();
 };

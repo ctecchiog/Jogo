@@ -9,3 +9,8 @@ FasePrimeira::~FasePrimeira()
 {
     
 }
+
+void FasePrimeira::executar()
+{
+
+}

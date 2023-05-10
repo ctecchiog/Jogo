@@ -6,8 +6,9 @@
 class FaseSegunda: public Fase{
 private:
     int id;
-    Inim_TipoB inim;
+    Inim_TipoB inimB;
 public:
     FaseSegunda();
     ~FaseSegunda();
+    void executar();
 };

@@ -8,6 +8,7 @@ class Gerenciador_Colisoes{
 private:
     vector <Inimigo*> LIs;
     list <Obstaculo*> LOs;
+    Jogador *player;
 public:
     Gerenciador_Colisoes();
     ~Gerenciador_Colisoes();

@@ -4,7 +4,7 @@
 
 class Inimigo: public Personagem{
 private:
-    int num_vidas;
+    
 public:
     Inimigo();
     ~Inimigo();

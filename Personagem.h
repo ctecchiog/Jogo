@@ -9,6 +9,4 @@ public:
     Personagem();
     ~Personagem();
     void executar();
-    int getX();
-    int getY();
 };

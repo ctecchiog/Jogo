@@ -1,9 +1,8 @@
 #include "Jogador.h"
 
-Jogador::Jogador()
+Jogador::Jogador(): num_vidas(10), pontuacao(0)
 {
-    body.setFillColor(sf::Color::Magenta);
-    body.setPosition(sf::Vector2f(200.f, 200.f));
+
 }
 
 Jogador::~Jogador()
@@ -27,4 +26,14 @@ int Jogador::getY()
 int Jogador::getVidas()
 {
     return num_vidas;
+}
+
+int Jogador::getPont()
+{
+    return pontuacao;
+}
+
+void Jogador::mover()
+{
+
 }

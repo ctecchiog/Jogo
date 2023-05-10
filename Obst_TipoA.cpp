@@ -8,6 +8,11 @@ Obst_TipoA::~Obst_TipoA()
 {
 }
 
+int Obst_TipoB::getID()
+{
+    return id;
+}
+
 int Obst_TipoA::getX()
 {
     return x;

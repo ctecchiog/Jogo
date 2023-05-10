@@ -7,6 +7,4 @@ public:
     Obstaculo();
     ~Obstaculo();
     void executar();
-    int getX();
-    int getY();
 };

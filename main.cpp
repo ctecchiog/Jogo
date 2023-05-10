@@ -5,7 +5,7 @@ int main() {
 
 	Jogo jogar;
 
-	jogar.Jogo();
+	jogar.inicializar();
 	
 	return 0;
 
