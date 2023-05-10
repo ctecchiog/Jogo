@@ -1,3 +1,5 @@
+//copiado de um jogo pronto, revisar depois
+
 ifeq ($(OS), Windows_NT)
 	DELETE=del
 else
