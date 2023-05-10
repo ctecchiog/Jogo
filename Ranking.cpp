@@ -1,8 +1,8 @@
 #include "Ranking.h"
 
-Ranking::Ranking(): player(NULL)
+Ranking::Ranking()
 {
-	ranking = new list <Jogador*>;
+	ranking = new Lista <Entidade>;
 }
 
 Ranking::~Ranking()
@@ -10,7 +10,12 @@ Ranking::~Ranking()
 
 }
 
-void Ranking::organizar()
+Jogador* Ranking::setJogador(Jogador *pJ)
+{
+	player = pJ;
+}
+
+void Ranking::organizar(Jogador *pJ)
 {
 
 }

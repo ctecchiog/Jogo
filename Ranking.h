@@ -1,13 +1,15 @@
 #pragma once
 #include <stdafx.h>
-#include <Jogador.h>
+#include "Jogador.h"
+#include "Lista.h"
 
 class Ranking {
 private:
-	list <Jogador*> ranking;
+	Lista <Entidade> ranking;
 	Jogador* player;
 public:
 	Ranking();
 	~Ranking();
-	void organizar();
+	Jogador* setJogador(Jogador *pJ);
+	void organizar(Jogador *pJ);
 };

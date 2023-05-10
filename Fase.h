@@ -7,7 +7,7 @@
 
 class Fase : public Ente {
 private:
-    Obst_TipoA obst;
+    Obst_TipoA chefao;
     ListaEntidades listaEnt;
     Gerenciador_Colisoes gerColisoes;
 

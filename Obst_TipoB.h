@@ -4,9 +4,7 @@
 
 class Obst_TipoB : public Obstaculo {
 private:
-    int id;
-    int x;
-    int y;
+
 public:
     Obst_TipoB();
     ~Obst_TipoB();

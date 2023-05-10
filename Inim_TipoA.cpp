@@ -10,27 +10,32 @@ Inim_TipoA::~Inim_TipoA()
 
 }
 
-bool Inim_TipoA::lancaProjetil(Projetil *pP, Jogador pJ*)
+void Inim_TipoA::lancaProjetil(Projetil *pP)
+{
+
+}
+
+bool Inim_TipoA::acertou(Projetil *pP, Jogador *pJ, bool *hit)
 {
 
 }
 
 int Inim_TipoA::getID()
 {
-    return id;
+    return this->id;
 }
 
 int Inim_TipoA::getX()
 {
-    return x;
+    return this->x;
 }
 
 int Inim_TipoA::getY()
 {
-    return y;
+    return this->y;
 }
 
 int Inim_TipoA::getVidas()
 {
-    return num_vidas;
+    return this->num_vidas;
 }

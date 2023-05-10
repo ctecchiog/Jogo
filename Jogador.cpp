@@ -1,6 +1,6 @@
 #include "Jogador.h"
 
-Jogador::Jogador(): num_vidas(10), pontuacao(0)
+Jogador::Jogador(): pontuacao(0)
 {
 
 }
@@ -12,20 +12,20 @@ Jogador::~Jogador()
 
 int Jogador::getID()
 {
-    return id;
+    return this->id;
 }
 int Jogador::getX()
 {
-    return x;
+    return this->x;
 }
 int Jogador::getY()
 {
-    return y;
+    return this->y;
 }
 
 int Jogador::getVidas()
 {
-    return num_vidas;
+    return this->num_vidas;
 }
 
 int Jogador::getPont()

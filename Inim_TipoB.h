@@ -5,10 +5,7 @@
 
 class Inim_TipoB: public Inimigo{
 private:
-    int id;
-    int x;
-    int y;
-    int num_vidas;
+    
 public:
     Inim_TipoB();
     ~Inim_TipoB();

@@ -4,13 +4,12 @@
 
 class Projetil : public Entidade {
 private:
-    int id;
-    int x;
-    int y;
+
 public:
     Projetil();
     ~Projetil();
     void executar();
+    int getID();
     int getX();
     int getY();
 };

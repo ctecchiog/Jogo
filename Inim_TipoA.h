@@ -2,20 +2,18 @@
 #include <stdafx.h>
 #include "Inimigo.h"
 #include "Projetil.h"
+#include "Jogador.h"
 
 class Inim_TipoA: public Inimigo{
 private:
-    int id;
-    int x;
-    int y;
-    int num_vidas;
     bool hit;
     Projetil *proj;
-    Jogador* player;
+    Jogador *player;
 public:
     Inim_TipoA();
     ~Inim_TipoA();
-    bool lancaProjetil(Projetil *pP, Jogador *pJ);
+    void lancaProjetil(Projetil *pP);
+    bool acertou(Projetil *pP, Jogador *pJ, bool *hit);
     int getID();
     int getX();
     int getY();

@@ -1,2 +1,2 @@
 # Jogo
-# Técnicas de Programação
+Jogo da disciplina Técnicas de Programação.

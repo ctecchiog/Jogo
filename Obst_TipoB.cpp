@@ -10,15 +10,15 @@ Obst_TipoB::~Obst_TipoB()
 
 int Obst_TipoB::getID()
 {
-    return id;
+    return this->id;
 }
 
 int Obst_TipoB::getX()
 {
-    return x;
+    return this->x;
 }
 
 int Obst_TipoB::getY()
 {
-    return y;
+    return this->y;
 }

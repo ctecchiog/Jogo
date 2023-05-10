@@ -5,10 +5,10 @@
 
 class Menu: public Ente{
 private:
-    int id;
     Ranking* ranking;
 public:
     Menu();
     ~Menu();
+    int getID();
     void executar();
 };

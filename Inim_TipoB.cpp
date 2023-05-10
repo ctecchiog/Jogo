@@ -12,20 +12,20 @@ Inim_TipoB::~Inim_TipoB()
 
 int Inim_TipoB::getID()
 {
-    return id;
+    return this->id;
 }
 
 int Inim_TipoB::getX()
 {
-    return x;
+    return this->x;
 }
 
 int Inim_TipoB::getY()
 {
-    return y;
+    return this->y;
 }
 
 int Inim_TipoB::getVidas()
 {
-    return num_vidas;
+    return this->num_vidas;
 }

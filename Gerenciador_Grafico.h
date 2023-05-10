@@ -4,7 +4,7 @@
 
 class Gerenciador_Grafico{
 private:
-    RenderWindow* window;
+    RenderWindow *window;
 public:
     Gerenciador_Grafico();
     ~Gerenciador_Grafico();

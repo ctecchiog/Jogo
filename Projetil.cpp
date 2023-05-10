@@ -10,6 +10,11 @@ void Projetil::executar()
 {
 }
 
+int Projetil::getID()
+{
+    return this->id;
+}
+
 int Projetil::getX()
 {
     return this->x;
