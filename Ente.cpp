@@ -8,10 +8,8 @@ Ente::~Ente()
 {
 }
 
-void Ente::executar()
-{
-}
+void Ente::executar() = 0;
 
-void Ente::imprimirSe()
+void Ente::desenhar()
 {
 }
