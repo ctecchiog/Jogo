@@ -12,6 +12,7 @@ private:
 public:
     Inim_Facil();
     ~Inim_Facil();
+    void executar();
     void lancaProjetil(Projetil *pP);
     bool acertou(Projetil *pP, Jogador *pJ, bool *hit);
     int getID();
