@@ -10,6 +10,11 @@ Inim_Facil::~Inim_Facil()
 
 }
 
+void Inin_Facil::executar()
+{
+   
+}
+
 void Inim_Facil::lancaProjetil(Projetil *pP)
 {
 
