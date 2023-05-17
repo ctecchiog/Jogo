@@ -1,6 +1,7 @@
 #pragma once
 #include <stdafx.h>
 #include "Lista.h"
+#include "Entidade.h"
 
 class ListaEntidades{
 private:
@@ -8,4 +9,5 @@ private:
 public:
     ListaEntidades();
     ~ListaEntidades();
+    void incluir(Entidade *pE);
 };
