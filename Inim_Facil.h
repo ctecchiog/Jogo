@@ -1,14 +1,13 @@
 #pragma once
 #include <stdafx.h>
 #include "Inimigo.h"
-#include "Projetil.h"
 
-class Inim_TipoB: public Inimigo{
+class Inim_Facil: public Inimigo{
 private:
     
 public:
-    Inim_TipoB();
-    ~Inim_TipoB();
+    Inim_Facil();
+    ~Inim_Facil();
     int getID();
     int getX();
     int getY();
