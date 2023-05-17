@@ -14,3 +14,11 @@ void FasePrimeira::executar()
 {
 
 }
+
+void FasePrimeira::criarInimFaceis()
+{
+}
+
+void criarObstDificeis()
+{
+}    
