@@ -35,5 +35,20 @@ int Jogador::getPont()
 
 void Jogador::mover()
 {
-
+    if ((sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) || (sf::Keyboard::isKeyPressed(sf::Keyboard::A)))
+    {
+        // move left...
+    }
+    else if ((sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) || (sf::Keyboard::isKeyPressed(sf::Keyboard::S)))
+    {
+        // move right...
+    }
+    else if ((sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) || (sf::Keyboard::isKeyPressed(sf::Keyboard::W)))
+    {
+        // move up...
+    }
+    else if ((sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) || (sf::Keyboard::isKeyPressed(sf::Keyboard::Z)))
+    {
+        // move down...
+    }
 }
