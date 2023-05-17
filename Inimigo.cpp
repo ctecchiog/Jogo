@@ -9,3 +9,8 @@ Inimigo::~Inimigo()
 {
     
 }
+
+void Inimigo::executar()
+{
+    
+}
