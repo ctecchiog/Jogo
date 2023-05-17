@@ -8,7 +8,5 @@ Obstaculo::~Obstaculo()
 {
 }
 
-void Obstaculo::executar()
-{
-}
+void Obstaculo::executar() = 0;
 
