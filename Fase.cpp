@@ -21,3 +21,11 @@ void Fase::executar()
 void Fase::gerenciar_colisoes()
 {
 }
+
+void Fase::criarInimMedios()
+{
+}
+
+void Fase::criarObstMedios()
+{
+}
