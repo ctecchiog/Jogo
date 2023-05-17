@@ -8,7 +8,7 @@ endif
 
 COMPILE := g++ -I./SFML/include/ -c
 
-entidades := $(wildcard ./src/entidades/*.cpp) $(wildcard ./src/entidades/obstaculos/*.cpp) $(wildcard ./src/entidades/personagens/*.cpp) $(wildcard ./src/entidades/personagens/inimigos/*.cpp)
+/*entidades := $(wildcard ./src/entidades/*.cpp) $(wildcard ./src/entidades/obstaculos/*.cpp) $(wildcard ./src/entidades/personagens/*.cpp) $(wildcard ./src/entidades/personagens/inimigos/*.cpp)
 fases := $(wildcard ./src/fases/*.cpp)
 gerenciadores := $(wildcard ./src/gerenciadores/*.cpp)
 sources := main.cpp $(wildcard ./src/*.cpp)
@@ -35,3 +35,4 @@ link:
 
 clean:
 	$(DELETE) *.o
+*/
