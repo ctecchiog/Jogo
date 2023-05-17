@@ -14,3 +14,11 @@ void FaseSegunda::executar()
 {
 
 }
+
+void FaseSegunda::criarInimDificeis()
+{
+}
+
+void FaseSegunda::criarObstFaceis()
+{
+}
