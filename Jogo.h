@@ -8,15 +8,18 @@
 
 class Jogo {
 private:
+    static Jogo* jogo;
     Jogador player1;
     Jogador player2;
     FasePrimeira phase1;
     FaseSegunda phase2;
     Menu menu;
     Gerenciador_Grafico gerGraf;
+    Jogo ();
     
 public:
-    Jogo();
+
     ~Jogo();
     void inicializar();
+    static Jogo* getInstance();
 };
