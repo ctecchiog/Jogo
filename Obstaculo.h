@@ -3,10 +3,11 @@
 #include "Entidade.h"
 
 class Obstaculo : public Entidade {
-private:
+protected:
+    bool danoso;
 
 public:
     Obstaculo();
     ~Obstaculo();
-    void executar();
+    virtual void executar() = 0;
 };
