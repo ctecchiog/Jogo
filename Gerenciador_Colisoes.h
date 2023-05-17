@@ -16,4 +16,5 @@ public:
     
     ~Gerenciador_Colisoes();
     static Gerenciador_Colisoes* getInstance();
+    void incluirObstaculo(Obstaculo *pO);
 };
