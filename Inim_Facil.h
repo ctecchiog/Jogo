@@ -4,14 +4,14 @@
 #include "Projetil.h"
 #include "Jogador.h"
 
-class Inim_TipoA: public Inimigo{
+class Inim_Facil: public Inimigo{
 private:
     bool hit;
     Projetil *proj;
     Jogador *player;
 public:
-    Inim_TipoA();
-    ~Inim_TipoA();
+    Inim_Facil();
+    ~Inim_Facil();
     void lancaProjetil(Projetil *pP);
     bool acertou(Projetil *pP, Jogador *pJ, bool *hit);
     int getID();
